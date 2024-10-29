@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Shop</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -16,63 +17,43 @@
             <a href="#">Contact Us</a>
         </nav>
         <div action="" class="search">
-            <input type="text">
+            <input type="text" placeholder="Search more">
             <button type="submit"><i class="material-icons">search</i><button>
         </div>
         <div class="icon">
             <i class="material-icons">notifications</i>
-            <i class="material-icons">public</i>
+            <i class="material-icons" style='font-size:30px;'>&#127760;</i>
         </div>
     </header>
     <main>
         <section class="popular-pordouct">
-            <h3>Popular Product</h3>
-            <div class="cards">
-                <div class="card">
-                    <img src="./img/meme.jfif" alt="">
-                    <h4>Product's Name</h4>
-                    <p>From Country</p>
-                    <div class="star">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
+            <div class="product-card">
+                <div class="product-image">
+                       <img src="" alt="Grey Bag">
+                       <div class="product-social">
+                        <a href="#"></a><i class="fa fa-facebook" style="font-size:25px"></i></a>
+                        <a href="#"></a><i class="fa fa-instagram" style="font-size:25px"></i></a>
+                        <a href="#"></a><i class="fa fa-telegram" style="font-size:25px"></i></a>
                     </div>
-                    <h4 class="price">Price $</h4>
-                    <button class="detail">Detail</button>
-                    <button class="order">Order Now</button>
-                </div>
-                <div class="card">
-                    <img src="./img/meme.jfif" alt="">
-                    <h4>Product's Name</h4>
-                    <p>From Country</p>
-                    <div class="star">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                    </div>
-                    <h4 class="price">Price $</h4>
-                    <button class="detail">Detail</button>
-                    <button class="order">Order Now</button>
-                </div>
-                <div class="card">
-                    <img src="./img/meme.jfif" alt="">
-                    <h4>Product's Name</h4>
-                    <p>From Country</p>
-                    <div class="star">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                        <img src="img/ic_baseline-star.svg" alt="">
-                    </div>
-                    <h4 class="price">Price $</h4>
-                    <button class="detail">Detail</button>
-                    <button class="order">Order Now</button>
-                </div>
+                   </div>
+                   <div class="product-info">
+                       <div class="product-name">Grey bag</div>
+                       <div class="product-origin">from USA</div>
+                       <div class="product-rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                       </div>
+                       <div class="product-price">
+                           45.50$
+                       </div>
+                   </div>
+                   <div class="product-buttons">
+                       <button class="btn-detail">Detail</button>
+                       <button class="btn-order">Order now</button>
+                   </div>
             </div>
         </section>
         <section class="banner">
@@ -101,44 +82,44 @@
             <button class="order">Order Now</button>
         </section>
     </main>
-    <footer>
-        <h3>The Possibilities are beautiful:</h3>
-        <article>
-           <span>Customer Service:</span> 
-            Orders and delivery <br>
-            FAQs <br>
-            Contact us <br>
-            Promotion terms and conditions <br>
-            The edit skin Customer Promise <br>
-            Returns and pricing
-        </article>
-        <article class="service">
-           <span>Customer Service:</span> 
-            Orders and delivery <br>
-            FAQs <br>
-            Contact us <br>
-            Promotion terms and conditions <br>
-            The edit skin Customer Promise <br>
-            Returns and pricing <br>
-        </article>
-        <article class="about">
-           <span>About The edit skin:</span> <br>
-            About us <br>
-            The edit skin partner boutiques <br>
-            Careers <br>
-            The edit app <br>
-            Modern slavery statement
-        </article>
-        <article class="discounts">
-           <span>Discounts and membership:</span>
-           Affiliate program
-           The edit skin membership
-           Student Beans and Graduates
-        </article>
-        <p>
-            Privacy policy , Terms and conditions ,Accessibility , Sitemap
-            “The edit skin” logo are trademarks of The edit skin Limited and are registered in numerous jurisdictions around world.
-        </p>
+    <footer class="footer-clothes">
+        <h2>The possibilities are beautiful:</h2>
+        <div class="information-clothes">
+            <div class="information">
+                <h4>Customer Service:</h4>
+                <a href="">Orders and delivery</a><br>
+                <a href="">FAQs</a><br>
+                <a href="">Contact us</a><br>
+                <a href="">Promotion terms and conditions</a><br>
+                <a href="">The edit skin Customer Promise</a><br>
+                <a href="">Returns and pricing</a><br>
+            </div>
+            <div class="information">
+                <h4>About The edit skin:</h4>
+                <a href="">About us</a><br>
+                <a href="">The edit skin partner boutiques</a><br>
+                <a href="">Careers</a><br>
+                <a href="">The edit app</a><br>
+                <a href="">Modern slavery statement</a><br>
+            </div>
+            <div class="information">
+                <h4>Discounts and membership:</h4>
+                <a href="">Affiliate program</a><br>
+                <a href="">The edit skin membership</a><br>
+                <a href="">Student Beans and Graduates</a><br>
+            </div>
+            <div class="information">
+                <h4>Sign up for news and special offers:</h4>
+                <p>It is a long established fact that a reader will<br>be distracted by the readable content of a <br>page when looking at its layout. The point of <br>using Loren Gypsum is that it has a more-or-<br>less normal distribution of letters, as opposed <br>to using 'Content here, content here',</p>
+                <button>Sign in</button>
+            </div>
+        </div>
+        <div class="foot-last">
+            <p>
+                Privacy policy , Terms and conditions ,Accessibility , Sitemap<br>
+                “The edit skin” logo are trademarks of The edit skin Limited and are registered in numerous jurisdictions around world.
+            </p>
+        </div>
     </footer>
 </body>
 </html>
