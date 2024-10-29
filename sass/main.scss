@@ -1,0 +1,12 @@
+@import './componant/varaible';
+@import './mixin/group-mixin';
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    padding: 0 200px;
+}
+@import './componant/header';
+@import './componant/card';
