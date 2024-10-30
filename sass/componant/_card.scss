@@ -2,7 +2,8 @@
 @import '../mixin/group-mixin';
 
 .popular-pordouct{
-  margin-top: 88px;
+  padding: 0 50px;
+  margin-top: 80px;
   .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -11,11 +11,23 @@ body {
 body .container {
   width: 1280px;
   margin: 0 auto;
-  padding: 0 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+body ::-webkit-scrollbar {
+  height: 10px;
+}
+body ::-webkit-scrollbar-track {
+  background: white;
+}
+body ::-webkit-scrollbar-thumb {
+  background: rgba(255, 182, 193, 0.281);
+  border-radius: 5px;
 }
 
 header {
+  width: 100%;
   height: 15vh;
+  padding: 50px;
   display: grid;
   grid-template-columns: 1fr 5fr 4fr 2fr;
   grid-template-areas: "logo nav search social";
@@ -73,7 +85,8 @@ header .icon .material-icons {
 }
 
 .popular-pordouct {
-  margin-top: 88px;
+  padding: 0 50px;
+  margin-top: 80px;
 }
 .popular-pordouct .cards {
   display: grid;
@@ -190,4 +203,107 @@ header .icon .material-icons {
 }
 .popular-pordouct .cards .product-card .product-info .buttons button.order-button:hover {
   background-color: #ff69b4;
+}
+
+.banner {
+  width: 100%;
+  height: 50vh;
+  background-color: #93DEFD;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #93DEFD;
+  margin: 80px 0;
+  padding: 0 50px;
+}
+.banner img {
+  height: 100%;
+  overflow: hidden;
+}
+.banner .baner-info {
+  height: 50%;
+  margin: auto 0;
+  display: grid;
+  justify-content: flex-end;
+  text-align: right;
+  gap: 24px;
+}
+.banner .baner-info h1 {
+  font-size: 64;
+  color: #FF8ADD;
+}
+.banner .baner-info h1 span {
+  color: white;
+}
+.banner .baner-info button {
+  width: 150px;
+  height: 50px;
+  padding: 8px 24px;
+  background: #FF8ADD;
+  color: white;
+  border: none;
+  outline: none;
+  justify-self: flex-end;
+}
+.banner .baner-info button:hover {
+  background-color: #ff69b4;
+}
+
+.new-stock {
+  width: 1180px;
+  margin: auto;
+}
+.new-stock h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.new-stock .slide-wrapp {
+  width: 100%;
+  overflow-x: auto;
+}
+.new-stock .slide-wrapp .slide {
+  height: 50vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas: "photo1 photo2 photo2 photo5 photo5 photo7 photo8 photo8" "photo1 photo3 photo4 photo6 photo6 photo7 photo9 photo10";
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+.new-stock .slide-wrapp .slide #photo1 {
+  grid-area: photo1;
+}
+.new-stock .slide-wrapp .slide #photo2 {
+  grid-area: photo2;
+}
+.new-stock .slide-wrapp .slide #photo3 {
+  grid-area: photo3;
+}
+.new-stock .slide-wrapp .slide #photo4 {
+  grid-area: photo4;
+}
+.new-stock .slide-wrapp .slide #photo5 {
+  grid-area: photo5;
+}
+.new-stock .slide-wrapp .slide #photo6 {
+  grid-area: photo6;
+}
+.new-stock .slide-wrapp .slide #photo7 {
+  grid-area: photo7;
+}
+.new-stock .slide-wrapp .slide #photo8 {
+  grid-area: photo8;
+}
+.new-stock .slide-wrapp .slide #photo9 {
+  grid-area: photo9;
+}
+.new-stock .slide-wrapp .slide #photo10 {
+  grid-area: photo10;
+}
+.new-stock .slide-wrapp .slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
