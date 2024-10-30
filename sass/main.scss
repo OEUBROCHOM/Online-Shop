@@ -7,11 +7,14 @@
 }
 body{
     width: 100%;
+    overflow-x: hidden;
     .container{
-        background-color: turquoise;
         width: 1280px;
         margin: 0 auto;
         padding: 0 50px;
+    }
+    main{
+        width: 1280px;
     }
 }
 @import './componant/header';

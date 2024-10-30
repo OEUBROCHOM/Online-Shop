@@ -7,16 +7,19 @@
 
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 body .container {
-  background-color: turquoise;
   width: 1280px;
   margin: 0 auto;
   padding: 0 50px;
 }
+body main {
+  width: 1280px;
+}
 
 header {
-  width: 100%;
+  width: 1280px;
   height: 15vh;
   padding: 50px;
   display: grid;
@@ -79,15 +82,29 @@ header .icon .material-icons {
 }
 
 .popular-pordouct {
+  width: 1280px;
   margin-top: 88px;
+  margin-bottom: 96px;
 }
+.popular-pordouct h1 {
+  padding-left: 50px;
+  padding-bottom: 24px;
+}
+.popular-pordouct .cards::-webkit-scrollbar {
+  display: none;
+}
+=
 .popular-pordouct .cards {
-  width: 100%;
+  width: 92%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--size-3);
+  grid-auto-flow: column;
+  grid-auto-columns: 29%;
+  overflow-x: scroll;
+  overscroll-behavior-inline: contain;
+  margin-left: 50px;
 }
 .popular-pordouct .cards .product-card {
-  margin: 0 auto;
   width: 329px;
   height: 480px;
   background-color: #ffffff;
