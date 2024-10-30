@@ -9,8 +9,7 @@
   }
   .cards{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     .product-card{
         margin: 0 auto;
         width: $product-card-width;
