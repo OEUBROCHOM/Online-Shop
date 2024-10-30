@@ -8,9 +8,11 @@
 body{
     width: 100%;
     .container{
+        background-color: turquoise;
         width: 1280px;
         margin: 0 auto;
-        padding: 0 50px;
+        display: grid;
+        grid-template-columns: repeat(1fr);
     }
 }
 @import './componant/header';
