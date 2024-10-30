@@ -2,16 +2,27 @@
 @import '../mixin/group-mixin';
 
 .popular-pordouct{
+  width: 1280px;
   margin-top: 88px;
+  margin-bottom: 96px;
   h1{
     padding-left: 50px;
     padding-bottom: 24px;
   }
+  .cards::-webkit-scrollbar{
+    display: none;
+  }
   .cards{
-    width: 100%;
-    display: flex;
+    width: 92%;
+    display: grid;
+    gap: var(--size-3);
+    grid-auto-flow: column;
+    grid-auto-columns: 29%;
+
+    overflow-x: scroll;
+    overscroll-behavior-inline: contain;
+    margin-left: 50px;
     .product-card{
-        margin: 0 auto;
         width: $product-card-width;
         height: $product-card-height;
         background-color: #ffffff;

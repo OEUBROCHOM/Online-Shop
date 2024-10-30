@@ -9,11 +9,13 @@ body{
     width: 100%;
     overflow-x: hidden;
     .container{
-        background-color: turquoise;
         width: 1280px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(1fr);
+    }
+    main{
+        width: 1280px;
     }
 }
 @import './componant/header';
