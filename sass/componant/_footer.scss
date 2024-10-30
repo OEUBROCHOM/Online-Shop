@@ -1,0 +1,54 @@
+footer{
+    height: 50vh;
+    width: 100%;
+    background: $blue-color;
+    padding: 0 50px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    align-items: center;
+    h2{
+        grid-area: 1/1/2/2;
+        font-size: 32px;
+        color: $pink-color;
+    }
+    .information-clothes{
+        grid-area: 2/1/3/2;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+        }
+        .sign-up{
+            width: 100%;
+            height: 100%;
+            background: white;
+            border-radius: 25px;
+            display: grid;
+            grid-template-rows: 1fr 2fr 1fr;
+            align-items: center;
+            gap: 10px;
+            h4{
+                font-size: 16px;
+                color: $pink-color;
+                text-align: center;
+            }
+            p{
+                font-size: 12px;
+                color: $blue-color;
+                text-align: center;
+            }
+            button{
+                width: 50%;
+                @include button($pink-color);
+                justify-self: center;
+            }
+            
+        }
+    }
+    .foot-last{
+        grid-area: 3/1/4/2;
+        font-size: 14px;
+    }
+}
