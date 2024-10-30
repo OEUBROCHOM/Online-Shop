@@ -6,7 +6,12 @@
 }
 
 body {
-  padding: 0 200px;
+  width: 100%;
+}
+body .container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 50px;
 }
 
 header {
@@ -67,9 +72,16 @@ header .icon .material-icons {
   font-size: 42px;
 }
 
-.product-card {
-  width: 429px;
-  height: 727px;
+.popular-pordouct {
+  margin-top: 88px;
+}
+.popular-pordouct .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.popular-pordouct .cards .product-card {
+  width: 329px;
+  height: 500px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -79,86 +91,85 @@ header .icon .material-icons {
   gap: 15px;
   font-family: Arial, sans-serif;
 }
-.product-card .product-image {
+.popular-pordouct .cards .product-card .product-image {
   position: relative;
-  width: 432px;
-  height: 429px;
+  width: 332px;
+  height: 280px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
 }
-.product-card .product-image img {
+.popular-pordouct .cards .product-card .product-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.product-card .product-image .product-social {
+.popular-pordouct .cards .product-card .product-image .product-social {
   position: absolute;
   bottom: 10px;
-  left: 16px;
+  left: 12px;
   display: flex;
   gap: 8px;
 }
-.product-card .product-image .product-social a {
+.popular-pordouct .cards .product-card .product-image .product-social a {
   background-color: #ffffff;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   text-decoration: none;
   display: grid;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   color: #333;
-  font-size: 20px;
+  font-size: 16px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s;
 }
-.product-card .product-image .product-social a:hover {
+.popular-pordouct .cards .product-card .product-image .product-social a:hover {
   background-color: #e0e0e0;
 }
-.product-card .product-info {
+.popular-pordouct .cards .product-card .product-info {
+  padding: 12px;
   display: grid;
   grid-template-rows: 1fr 1fr 2fr 3fr;
   grid-template-columns: auto auto;
   gap: 0px;
 }
-.product-card .product-info h1 {
-  grid-area: 1/1/2/3;
+.popular-pordouct .cards .product-card .product-info h1 {
+  padding-left: 0px;
   font-weight: bold;
-  font-size: 32px;
-  margin-left: 16px;
-}
-.product-card .product-info h3 {
-  grid-area: 2/1/3/3;
-  font-size: 16px;
-  font-weight: lighter;
-  margin-top: 16px;
-  margin-left: 16px;
+  font-size: 24px;
   line-height: 10px;
 }
-.product-card .product-info .product-rating {
+.popular-pordouct .cards .product-card .product-info h3 {
+  grid-area: 2/1/3/3;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.popular-pordouct .cards .product-card .product-info .product-rating {
   grid-area: 3/1/4/2;
-  margin-left: 16px;
   color: #FFD700;
   align-self: center;
-  font-size: 24px;
+  font-size: 18px;
+  margin-top: 8px;
 }
-.product-card .product-info .product-price {
+.popular-pordouct .cards .product-card .product-info .product-price {
   grid-area: 3/2/4/3;
-  font-size: 42px;
+  font-size: 22px;
   font-weight: bold;
   align-self: center;
+  justify-self: end;
+  margin-top: 10px;
 }
-.product-card .product-info .buttons {
+.popular-pordouct .cards .product-card .product-info .buttons {
   grid-area: 4/1/5/3;
-  padding: 0 16px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
-.product-card .product-info .buttons button {
+.popular-pordouct .cards .product-card .product-info .buttons button {
   border: none;
   border-radius: 5px;
   padding: 10px 15px;
@@ -166,17 +177,17 @@ header .icon .material-icons {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.product-card .product-info .buttons button.detail-button {
+.popular-pordouct .cards .product-card .product-info .buttons button.detail-button {
   background-color: #add8e6;
   color: #333;
 }
-.product-card .product-info .buttons button.detail-button:hover {
+.popular-pordouct .cards .product-card .product-info .buttons button.detail-button:hover {
   background-color: #87ceeb;
 }
-.product-card .product-info .buttons button.order-button {
+.popular-pordouct .cards .product-card .product-info .buttons button.order-button {
   background-color: #ffb6c1;
   color: #333;
 }
-.product-card .product-info .buttons button.order-button:hover {
+.popular-pordouct .cards .product-card .product-info .buttons button.order-button:hover {
   background-color: #ff69b4;
 }/*# sourceMappingURL=main.css.map */
