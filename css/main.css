@@ -93,7 +93,6 @@ header .icon .material-icons {
 .popular-pordouct .cards::-webkit-scrollbar {
   display: none;
 }
-=
 .popular-pordouct .cards {
   width: 92%;
   display: grid;
