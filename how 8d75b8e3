@@ -1,0 +1,110 @@
+[33mcommit 8d75b8e3ec04ee9c55bc12bf70136094ac9d1fb9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mNILRATHANA[m[33m, [m[1;31morigin/OEUB[m[33m, [m[1;31morigin/NILRATHANA[m[33m, [m[1;32mOEUB[m[33m)[m
+Merge: 456243d 6aa1d2f
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 11:36:59 2024 +0700
+
+    new code
+
+[33mcommit 456243d243ad2324d737200f7f451c962f6b0d90[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 11:31:51 2024 +0700
+
+     change code
+
+[33mcommit af21a4bb78d1ff05266c5362497cbc0efb657eb6[m
+Merge: e151ef7 9d90111
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 09:59:15 2024 +0700
+
+    Merge branch 'OEUB' of https://github.com/OEUBROCHOM/Online-Shop into NILRATHANA
+
+[33mcommit 9d901117fe5c40df96788a1f977590c0e9a630f9[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 09:36:10 2024 +0700
+
+    updated code
+
+[33mcommit 67b4dd1e304c6accc2b417a6d91b1cda8a32a21e[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 09:07:39 2024 +0700
+
+    Merged relevant code from _footer.scss in POLEAK into OEUB
+
+[33mcommit 27e752522e41bbff0586a8ae9dbc7b3bede97623[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 08:53:23 2024 +0700
+
+    Your commit message here
+
+[33mcommit 41c36e626095ae9e9fbd9949c7b3cc2cec34e688[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 08:43:47 2024 +0700
+
+    Merged img/Shose from NILRATHANA branch
+
+[33mcommit e151ef7829a02d3f9100a4089f584f122b7277ab[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 08:38:45 2024 +0700
+
+    updated
+
+[33mcommit abc49519a20e889bcfeb79ec47d6e76ac98863ab[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 08:34:46 2024 +0700
+
+    Add files to img/Shoes directory
+
+[33mcommit 61c5224064a57dd0820de8702e11c6f7eaf8d23b[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Thu Oct 31 08:23:42 2024 +0700
+
+    Add new files to img/Shoes directory
+
+[33mcommit 885aec025d32309d840074c1c18ba8f0f118e49a[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Wed Oct 30 16:27:56 2024 +0700
+
+    fixed cards
+
+[33mcommit 45529177e1980880d18f077f36fe254157f377ab[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Wed Oct 30 12:49:28 2024 +0700
+
+    Save changes before switching branches
+
+[33mcommit 5f07ab5d0d19bd1ebe2b517dbfdc3e2b26445d3e[m[33m ([m[1;32mmain[m[33m)[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Tue Oct 29 15:18:09 2024 +0700
+
+    structure markup
+
+[33mcommit 359b55ea93aa0b1c949711a53e0137db9ab5094f[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Tue Oct 29 11:01:37 2024 +0700
+
+    added more code
+
+[33mcommit 441d3ecb1d8e599c6c33798ed04cd42d72f4954c[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Mon Oct 28 15:08:50 2024 +0700
+
+    Added clothes.html with basic HTML structure
+
+[33mcommit 60f4cc01fa3ae51f00aa308754ee85f41e9ee87b[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Mon Oct 28 14:56:04 2024 +0700
+
+    added contact
+
+[33mcommit e3a4b28ef75c2efcad4a45d813a0ba6d610ba90f[m
+Merge: 7ad78d1 616f2bb
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Mon Oct 28 14:48:07 2024 +0700
+
+    Merge branch 'main' of https://github.com/OEUBROCHOM/Online-Shop
+
+[33mcommit 7ad78d106a8d6ffe17be963de3b26e1aaedc565d[m
+Author: [1;31mOEUBROCHOM[m <oeub.rochom@student.passerellesnumeriques.org>
+Date:   Mon Oct 28 14:45:27 2024 +0700
+
+    add html
