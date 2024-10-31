@@ -1,0 +1,25 @@
+@import '../componant/varaible';
+@import '../mixin/group-mixin';
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    .container{
+        width: 1280px;
+        background-color: aquamarine;
+        margin: 0 auto;
+    }
+    main{
+        width: 1280px;
+    }
+}
+
+@import '../componant/header';
+@import '../componant/banner';
+@import '../componant/card';
+@import '../componant/product-slide';
+@import '../componant/footer';
