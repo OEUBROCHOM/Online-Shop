@@ -11,8 +11,7 @@ body {
 }
 body .container {
   width: 1280px;
-  margin: 0 auto;
-  padding: 0 50px;
+  background-color: aquamarine;
 }
 body main {
   width: 1280px;
@@ -21,13 +20,12 @@ body main {
 header {
   width: 1280px;
   height: 15vh;
-  padding: 50px;
   display: grid;
   grid-template-columns: 1fr 5fr 4fr 2fr;
   grid-template-areas: "logo nav search social";
   align-items: center;
-  gap: 24px;
   padding: 0 50px;
+  gap: 24px;
 }
 header .logo {
   grid-area: "logo";
@@ -247,33 +245,46 @@ header .icon .material-icons {
 }
 
 .banner {
-  width: 100%;
+  width: 1280px;
   height: 50vh;
   background-color: #93DEFD;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-areas: "baner-info img";
   background: #93DEFD;
   margin: 80px 0;
   padding: 0 50px;
 }
 .banner img {
+  grid-area: img;
   height: 100%;
   overflow: hidden;
+  justify-self: end;
 }
 .banner .baner-info {
-  height: 50%;
-  margin: auto 0;
+  grid-area: baner-info;
+  height: 100%;
+  justify-self: flex-start;
   display: grid;
   justify-content: flex-end;
   text-align: right;
   gap: 24px;
+  padding-top: 50px;
 }
-.banner .baner-info h1 {
-  font-size: 64;
+.banner .baner-info h1:nth-child(1) {
+  font-size: 64px;
   color: #FF8ADD;
+  justify-self: flex-start;
+  line-height: 1px;
 }
-.banner .baner-info h1 span {
+.banner .baner-info h1:nth-child(2) {
+  font-size: 64px;
+  justify-self: flex-start;
   color: white;
+  line-height: 50px;
+}
+.banner .baner-info p {
+  justify-self: flex-start;
 }
 .banner .baner-info button {
   width: 150px;
@@ -283,7 +294,7 @@ header .icon .material-icons {
   color: white;
   border: none;
   outline: none;
-  justify-self: flex-end;
+  justify-self: flex-start;
 }
 .banner .baner-info button:hover {
   background-color: #ff69b4;
