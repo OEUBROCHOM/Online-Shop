@@ -7,14 +7,17 @@
 }
 body{
     width: 100%;
+    overflow-x: hidden;
     .container{
-        background-color: turquoise;
         width: 1280px;
-        margin: 0 auto;
-        padding: 0 50px;
+        background-color: aquamarine;
+    }
+    main{
+        width: 1280px;
     }
 }
 @import './componant/header';
 @import './componant/card';
 @import './componant/banner';
-@import './componant/product-slide'
+@import './componant/product-slide';
+@import './componant/footer';
