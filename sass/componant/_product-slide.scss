@@ -1,0 +1,43 @@
+.new-stock{
+    width: 1180px;
+    margin: auto;
+    
+    h3{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    .slide-wrapp{
+        width: 100%;
+        overflow-x: auto;
+        .slide {
+            height: 50vh;
+            width: 100vw;
+            display: grid;
+            grid-template-areas:
+            "photo1 photo2 photo2 photo5 photo5 photo7 photo8 photo8"
+            "photo1 photo3 photo4 photo6 photo6 photo7 photo9 photo10";
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: 1fr 1fr;
+            gap: 5px;
+        
+            #photo1 { grid-area: photo1; }
+            #photo2 { grid-area: photo2; }
+            #photo3 { grid-area: photo3; }
+            #photo4 { grid-area: photo4; }
+            #photo5 { grid-area: photo5; }
+            #photo6 { grid-area: photo6; }
+            #photo7 { grid-area: photo7; }
+            #photo8 { grid-area: photo8; }
+            #photo9 { grid-area: photo9; }
+            #photo10 { grid-area: photo10; }
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                overflow: hidden;
+
+            }
+        }
+      }       
+}
