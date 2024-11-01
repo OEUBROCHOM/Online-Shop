@@ -23,8 +23,10 @@ body{
     height: 55vh;
     h1{
         text-align: center;
-        padding-top: 3%;
+        padding-top: 4%;
         padding-bottom: 3%;
+        margin-left: 3%;
+        color: white;
     }
     .via{
         display: flex;
@@ -34,23 +36,130 @@ body{
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            .fa, .material-icons{
+                background-color: white;
+                padding: 7%;
+                border-radius: 50%;
+                margin-bottom: 10%;
+            }
+            h2{
+                margin-bottom: 5%;
+            }
         }
     }
 }
 .message-form{
     background-color: aliceblue;
-    height: 60vh;
+    height: 65vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     .message-left{
+        width: 50%;
+        margin-left: 20%;
         padding-top: 3%;
         padding-bottom: 5%;
-        
+        h1{
+
+            font-size: 2rem;
+            margin-bottom: 3%;
+        }
+        p{
+            font-size: 1rem;
+        }
+        .mix-logo-content{
+            display: flex;
+            img{
+                margin-top: 6%;
+                width: 20%;
+                height: 20%;
+                border-radius: 5px;
+                margin-right: 10px;
+            }
+            p{
+                margin-top: 4%;
+                font-size: 1rem;
+            }
+        }
     }
     .form-right{
-        background-color: #caecf8;
-        padding: 7.9% 8% 7.9% 8%;
+        width: 50%;
+        height: 100%;
+        background-color: #d9eef6;
+        padding: 2.2% 15% 2.2% 4%;
+        margin-right: 10%;
+    }
+    form {
+        .acounts{
+            label{
+                color: black;
+                font-size: 1.3rem;
+                font-weight: bold;
+            }
+           .account{
+             width: 150%;
+             padding: 3% 0%;
+             margin-bottom: 10%;
+           } 
+        }
+        .passwords{
+            width: 150%;
+            .p-word{
+                color: black;
+                font-size: 1.3rem;
+                font-weight: bold;
+            }
+            a{
+                text-decoration: none;
+                color: #13B9FE;
+            }
+            .password{
+                width: 100%;
+                padding: 2% 0%;
+                margin-bottom: 10%;
+            }
+            .fogot{
+                margin-left: 36%;
+               
+            }
+        }
+        button{
+            width: 150%;
+            padding: 3% 0%;
+            margin-bottom: 3%;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            background-color: #13B9FE;
+            border-radius: 5px;
+            color: white;
+        }
+        .line{
+            width: 150%;
+            a{
+                text-decoration: none;
+                color: #13B9FE;
+            }
+            a:nth-child(2){
+                margin-left: 26%;
+                color: #13B9FE;
+            }
+        }
+        .fogot{
+            width: 100%;
+            margin-left: 0%; 
+        }
+        hr{
+            width: 150%;
+            margin: 10% 0% 5% 0%;
+        }
+        .fa-brands{
+            padding-left: 20px;
+            font-size: 25px;
+        }
+        .fa-google{color: red;}
+        .fa-facebook{color: blue;}
+        .fa-instagram{color: #DF479D;}
     }
 }
 .map{

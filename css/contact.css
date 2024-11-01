@@ -25,8 +25,10 @@ body main {
 }
 .get-in-rouck h1 {
   text-align: center;
-  padding-top: 3%;
+  padding-top: 4%;
   padding-bottom: 3%;
+  margin-left: 3%;
+  color: white;
 }
 .get-in-rouck .via {
   display: flex;
@@ -38,21 +40,129 @@ body main {
   align-items: center;
   justify-content: center;
 }
+.get-in-rouck .via .address .fa, .get-in-rouck .via .address .material-icons {
+  background-color: white;
+  padding: 7%;
+  border-radius: 50%;
+  margin-bottom: 10%;
+}
+.get-in-rouck .via .address h2 {
+  margin-bottom: 5%;
+}
 
 .message-form {
   background-color: aliceblue;
-  height: 60vh;
+  height: 65vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .message-form .message-left {
+  width: 50%;
+  margin-left: 20%;
   padding-top: 3%;
   padding-bottom: 5%;
 }
+.message-form .message-left h1 {
+  font-size: 2rem;
+  margin-bottom: 3%;
+}
+.message-form .message-left p {
+  font-size: 1rem;
+}
+.message-form .message-left .mix-logo-content {
+  display: flex;
+}
+.message-form .message-left .mix-logo-content img {
+  margin-top: 6%;
+  width: 20%;
+  height: 20%;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.message-form .message-left .mix-logo-content p {
+  margin-top: 4%;
+  font-size: 1rem;
+}
 .message-form .form-right {
-  background-color: #caecf8;
-  padding: 7.9% 8% 7.9% 8%;
+  width: 50%;
+  height: 100%;
+  background-color: #d9eef6;
+  padding: 2.2% 15% 2.2% 4%;
+  margin-right: 10%;
+}
+.message-form form .acounts label {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.message-form form .acounts .account {
+  width: 150%;
+  padding: 3% 0%;
+  margin-bottom: 10%;
+}
+.message-form form .passwords {
+  width: 150%;
+}
+.message-form form .passwords .p-word {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.message-form form .passwords a {
+  text-decoration: none;
+  color: #13B9FE;
+}
+.message-form form .passwords .password {
+  width: 100%;
+  padding: 2% 0%;
+  margin-bottom: 10%;
+}
+.message-form form .passwords .fogot {
+  margin-left: 36%;
+}
+.message-form form button {
+  width: 150%;
+  padding: 3% 0%;
+  margin-bottom: 3%;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #13B9FE;
+  border-radius: 5px;
+  color: white;
+}
+.message-form form .line {
+  width: 150%;
+}
+.message-form form .line a {
+  text-decoration: none;
+  color: #13B9FE;
+}
+.message-form form .line a:nth-child(2) {
+  margin-left: 26%;
+  color: #13B9FE;
+}
+.message-form form .fogot {
+  width: 100%;
+  margin-left: 0%;
+}
+.message-form form hr {
+  width: 150%;
+  margin: 10% 0% 5% 0%;
+}
+.message-form form .fa-brands {
+  padding-left: 20px;
+  font-size: 25px;
+}
+.message-form form .fa-google {
+  color: red;
+}
+.message-form form .fa-facebook {
+  color: blue;
+}
+.message-form form .fa-instagram {
+  color: #DF479D;
 }
 
 .map {
