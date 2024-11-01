@@ -1,0 +1,62 @@
+@import '../componant/varaible';
+@import '../mixin/group-mixin';
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    .container{
+        width: 1280px;
+        background-color: aquamarine;
+        margin: 0 auto;
+    }
+    main{
+        width: 1280px;
+    }
+}
+.get-in-rouck{
+    margin-top: 5%;
+    background-color: #93DEFD ;
+    height: 55vh;
+    h1{
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .via{
+        display: flex;
+        justify-content: space-evenly;
+        .address{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+.message-form{
+    background-color: aliceblue;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .message-left{
+        padding-top: 3%;
+        padding-bottom: 5%;
+        
+    }
+    .form-right{
+        background-color: #caecf8;
+        padding: 7.9% 8% 7.9% 8%;
+    }
+}
+.map{
+    width: 100%;
+    height: 80vh;
+    background-color: aqua
+}
+@import '../componant/header';
+@import '../componant/footer';

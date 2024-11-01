@@ -529,13 +529,14 @@ header .icon .material-icons {
 }
 
 footer {
-  height: 50vh;
+  height: 70vh;
   width: 100%;
   background: #93DEFD;
   padding: 0 50px;
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
   align-items: center;
+  padding-bottom: 3%;
 }
 footer h2 {
   grid-area: 1/1/2/2;
