@@ -108,7 +108,7 @@ header .icon .material-icons {
   padding-top: 50px;
 }
 .banner .baner-info h1:nth-child(1) {
-  font-size: 64px;
+  font-size: 48px;
   color: #FF8ADD;
   justify-self: flex-start;
   line-height: 1px;
@@ -117,10 +117,10 @@ header .icon .material-icons {
   font-size: 64px;
   justify-self: flex-start;
   color: white;
-  line-height: 50px;
+  line-height: 0%;
 }
 .banner .baner-info p {
-  justify-self: flex-start;
+  text-align: left;
 }
 .banner .baner-info button {
   width: 150px;
@@ -528,7 +528,7 @@ header .icon .material-icons {
 footer {
   height: 70vh;
   width: 100%;
-  background: #93DEFD;
+  background: #DFF5FF;
   padding: 0 50px;
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
@@ -538,7 +538,7 @@ footer {
 footer h2 {
   grid-area: 1/1/2/2;
   font-size: 32px;
-  color: #FF8ADD;
+  color: #80004E;
 }
 footer .information-clothes {
   grid-area: 2/1/3/2;
@@ -547,7 +547,7 @@ footer .information-clothes {
 }
 footer .information-clothes a {
   text-decoration: none;
-  color: black;
+  color: #7A7373;
   font-size: 14px;
 }
 footer .information-clothes .sign-up {
@@ -562,7 +562,7 @@ footer .information-clothes .sign-up {
 }
 footer .information-clothes .sign-up h4 {
   font-size: 16px;
-  color: #FF8ADD;
+  color: #000000;
   text-align: center;
 }
 footer .information-clothes .sign-up p {
@@ -585,4 +585,32 @@ footer .information-clothes .sign-up button:hover {
 footer .foot-last {
   grid-area: 3/1/4/2;
   font-size: 14px;
+}
+
+.information h4 {
+  color: #454141;
+}
+
+.information:nth-child(4) {
+  background-color: white;
+  border-radius: 10px;
+  padding: 3%;
+}
+.information:nth-child(4) h4 {
+  color: #FF8ADD;
+}
+.information:nth-child(4) p {
+  color: #0EB1F3;
+  font-size: 0.8rem;
+  padding: 3% 0%;
+}
+.information:nth-child(4) button {
+  margin-top: 0;
+  padding: 3px 8px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #FF8ADD;
+  margin-bottom: 5%;
 }/*# sourceMappingURL=clothes.css.map */
