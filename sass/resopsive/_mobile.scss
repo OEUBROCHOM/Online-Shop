@@ -65,8 +65,8 @@
                     width: 100%;
                     height: 250px; /* Adjust height to content */
                     grid-template-columns: 1fr 1fr; /* Stack items vertically */
-                    margin: 32px 0;
-                    padding: 0 0px;
+                    margin: 15vh 0;
+                    padding: 0 0;
             
                     img {
                         padding-right: 0; /* Remove padding to fit screen */
@@ -122,6 +122,33 @@
                 }
                     
             }
+            @media (max-width: 768px) {
+        .get-in-rouck,
+        .message-form {
+            width: 100%; // Full width on mobile for easier navigation
+            padding: 5%;
+        }
+
+        .form-right {
+            width: 100%;
+            padding-top: 5%;
+            padding-bottom: 15%;
+            margin: 0; // Remove margin for better alignment
+        }
+
+        .map {
+            height: 40vh; // Increase height for better mobile display
+        }
+
+        // Adjust button and input widths
+        .form-right .account,
+        .form-right .password,
+        .form-right button,
+        .form-right hr {
+            width: 100%;
+        }
+    }
+}
             footer{
                 height: 50vh;
                 gap: 0;
