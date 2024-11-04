@@ -61,20 +61,34 @@
                         }
                     }
                 }
-                .banner{
-                    padding: auto 5px;
+                .banner {
                     width: 100%;
-                    height: 35vh;
-                    img{
-                        width: 100%;
+                    height: 250px; /* Adjust height to content */
+                    grid-template-columns: 1fr; /* Stack items vertically */
+                    padding: 10px;
+            
+                    img {
+                        padding-right: 0; /* Remove padding to fit screen */
+                        width: 100px; /* Reduce width */
+                        height: 75px; /* Reduce height */
                     }
-                    .baner-info{
-                        font-size: 14px;
-                        gap: none;
-                        h1{
-                            font-size: 14px;
+            
+                    .baner-info {
+                        width: auto; /* Take full available width */
+                        font-size: 10px;
+                        gap: 5px;
+            
+                        h1 {
+                            font-size: 14px; /* Slightly larger heading for readability */
                         }
-                        p{
+            
+                        p {
+                            font-size: 10px;
+                        }
+            
+                        button {
+                            width: 100px; /* Adjust button width */
+                            height: 30px; /* Adjust button height */
                             font-size: 8px;
                         }
                     }

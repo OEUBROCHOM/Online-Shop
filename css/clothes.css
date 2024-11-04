@@ -766,21 +766,30 @@ body .container .information:nth-child(4) button {
     padding: 0 10px;
   }
   body .container main .banner {
-    padding: auto 5px;
     width: 100%;
-    height: 35vh;
+    height: 250px; /* Adjust height to content */
+    grid-template-columns: 1fr; /* Stack items vertically */
+    padding: 10px;
   }
   body .container main .banner img {
-    width: 100%;
+    padding-right: 0; /* Remove padding to fit screen */
+    width: 100px; /* Reduce width */
+    height: 75px; /* Reduce height */
   }
   body .container main .banner .baner-info {
-    font-size: 14px;
-    gap: none;
+    width: auto; /* Take full available width */
+    font-size: 10px;
+    gap: 5px;
   }
   body .container main .banner .baner-info h1 {
-    font-size: 14px;
+    font-size: 14px; /* Slightly larger heading for readability */
   }
   body .container main .banner .baner-info p {
+    font-size: 10px;
+  }
+  body .container main .banner .baner-info button {
+    width: 100px; /* Adjust button width */
+    height: 30px; /* Adjust button height */
     font-size: 8px;
   }
   body .container main .new-stock {
