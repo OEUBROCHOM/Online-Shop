@@ -22,6 +22,10 @@ body .container header {
   align-items: center;
   padding: 0 50px;
   gap: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
 }
 body .container header .logo {
   grid-area: "logo";
@@ -860,23 +864,47 @@ body .container .information:nth-child(4) button {
   body .container main .product-container .cards .product-card {
     margin: 0;
   }
-  body .container footer {
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  body .container .get-in-rouck,
+  body .container .message-form {
+    width: 100%;
+    padding: 5%;
+  }
+  body .container .form-right {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    margin: 0;
+  }
+  body .container .map {
+    height: 40vh;
+  }
+  body .container .form-right .account,
+  body .container .form-right .password,
+  body .container .form-right button,
+  body .container .form-right hr {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  body footer {
     height: 50vh;
     gap: 0;
   }
-  body .container footer h2 {
+  body footer h2 {
     font-size: 14px;
   }
-  body .container footer .information {
+  body footer .information {
     font-size: 12px;
   }
-  body .container footer .information a {
+  body footer .information a {
     font-size: 10px;
   }
-  body .container footer .information:last-child {
+  body footer .information:last-child {
     display: none;
   }
-  body .container footer .foot-last {
+  body footer .foot-last {
     font-size: 12px;
   }
-}
+}/*# sourceMappingURL=clothes.css.map */
