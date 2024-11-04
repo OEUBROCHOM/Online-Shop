@@ -1,6 +1,7 @@
 @import './varaible';
 @import '../mixin/group-mixin';
 header{
+    background: white;
     width: 1280px;
     height: 15vh;
     display: grid;
@@ -9,6 +10,9 @@ header{
     align-items: center;
     padding: 0 50px;
     gap: 24px;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
     .logo{
         grid-area: 'logo';
         img{
