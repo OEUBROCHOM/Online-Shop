@@ -768,21 +768,26 @@ body .container .information:nth-child(4) button {
   body .container main .banner {
     width: 100%;
     height: 250px; /* Adjust height to content */
-    grid-template-columns: 1fr; /* Stack items vertically */
-    padding: 10px;
+    grid-template-columns: 1fr 1fr; /* Stack items vertically */
+    margin: 32px 0;
+    padding: 0 0px;
   }
   body .container main .banner img {
     padding-right: 0; /* Remove padding to fit screen */
-    width: 100px; /* Reduce width */
-    height: 75px; /* Reduce height */
+    width: 200px; /* Reduce width */
+    height: auto; /* Reduce height */
   }
   body .container main .banner .baner-info {
     width: auto; /* Take full available width */
     font-size: 10px;
     gap: 5px;
+    margin: 0 0 0 50px;
   }
-  body .container main .banner .baner-info h1 {
-    font-size: 14px; /* Slightly larger heading for readability */
+  body .container main .banner .baner-info h1:nth-child(1) {
+    font-size: 32px; /* Slightly larger heading for readability */
+  }
+  body .container main .banner .baner-info h1:nth-child(2) {
+    font-size: 24px;
   }
   body .container main .banner .baner-info p {
     font-size: 10px;
@@ -799,17 +804,20 @@ body .container .information:nth-child(4) button {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   body .container main .product-container h1 {
-    font-size: 14px;
+    font-size: 24px;
   }
   body .container main .product-container .cards {
-    padding: 0 7%;
+    padding: 0;
+    margin: 0;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .container main .product-container .cards .product-card {
+    margin: 0;
   }
   body .container footer {
     height: 50vh;
@@ -830,4 +838,4 @@ body .container .information:nth-child(4) button {
   body .container footer .foot-last {
     font-size: 12px;
   }
-}
+}/*# sourceMappingURL=bag.css.map */
