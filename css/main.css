@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 body .container {
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
 }
 body header {
@@ -460,9 +460,6 @@ body main .new-stock h3 {
   font-weight: bold;
   margin-bottom: 16px;
 }
-body main .new-stock .slide-wrapp::-webkit-scrollbar {
-  display: none;
-}
 body main .new-stock .slide-wrapp {
   width: 100%;
   overflow-x: auto;
@@ -830,4 +827,4 @@ footer .foot-last {
   body .container footer .foot-last {
     font-size: 12px;
   }
-}/*# sourceMappingURL=main.css.map */
+}

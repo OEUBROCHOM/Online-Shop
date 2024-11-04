@@ -457,9 +457,6 @@ body .container .new-stock h3 {
   font-weight: bold;
   margin-bottom: 16px;
 }
-body .container .new-stock .slide-wrapp::-webkit-scrollbar {
-  display: none;
-}
 body .container .new-stock .slide-wrapp {
   width: 100%;
   overflow-x: auto;
@@ -824,4 +821,4 @@ body .container .information:nth-child(4) button {
   body .container footer .foot-last {
     font-size: 12px;
   }
-}/*# sourceMappingURL=bag.css.map */
+}
